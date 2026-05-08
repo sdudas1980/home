@@ -8,6 +8,6 @@ Check back soon for updates.
 
 
 I am pretty much creating this because i would like to work at ElevenLabs.
-I didnt know they wanted to see your git as part of the application process.
+I didnt know they wanted to see my git as part of the application process.
 
 ;)
