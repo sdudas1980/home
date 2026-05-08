@@ -1,0 +1,24 @@
+# Create the Virtual Environment
+sudo apt update && sudo apt install python3-venv -y
+python3 -m venv venv
+
+# Activate your venv (to exit venv: deactivate)
+source ~/venv/bin/activate
+
+# Run like this unless you add to command prompt.
+# python duke.py
+
+# Install DuckDuckGo for web search
+pip install ddgs requests
+
+# Create the agent
+~/agents/duke.py
+
+
+
+# Add Duke to the command prompt:
+nano ~/.bashrc
+# Duke Nukem AI Agent Alias (add this to the bottom)
+alias duke='/home/noob/venv/bin/python3 /home/noob/agents/duke.py'
+source ~/.bashrc
+
