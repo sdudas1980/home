@@ -10,7 +10,7 @@ from ddgs import DDGS
 
 # --- Configuration ---
 OLLAMA_URL = "http://10.99.99.99:11434/api/chat"
-MODEL = "duke3.5:latest"
+MODEL = "qwen3.5:latest"
 WORKSPACE = "/home/noob/agents/ai_workspace"
 
 if not os.path.exists(WORKSPACE):
